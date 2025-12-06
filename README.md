@@ -1,6 +1,6 @@
 # **1.1 Introduction**
 
-India’s payment ecosystem has shifted dramatically in the last decade. The launch of UPI in 2016 changed how citizens pay for everyday needs—groceries, bills, travel, micro-payments, and e-commerce. With instant transfers, zero fees, and widespread merchant acceptance, UPI has become the dominant retail payment channel in India. Cards continue to play a strong role – particularly for high-value purchases and online shopping – while cash remains relevant for small retail spends, rural markets, and traditional consumers.
+India’s payment ecosystem has shifted dramatically in the last decade. The launch of UPI(Unified Payments Interface) in 2016 changed how citizens pay for everyday needs like groceries, bills, travel, micro-payments, and e-commerce. With instant transfers, zero fees, and widespread merchant acceptance, UPI has become the dominant retail payment channel in India. Cards continue to play a strong role,particularly for high-value purchases and online shopping while cash remains relevant for small retail spends, rural markets, and traditional consumers.
 
 Government initiatives like Digital India, rising smartphone adoption, better internet access, and post-COVID behavioral changes have accelerated the move toward digital payments. Still, preferences vary across income groups, age groups, and regions. Some people value convenience, some trust cards more, and others stick with cash because it feels familiar and easy.
 

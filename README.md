@@ -1,8 +1,3 @@
-# Introduction
-Roger that. Here’s a **clean, straightforward, undergraduate-level version**, trimmed down, simplified, and written in a crisp, corporate-style tone while keeping the substance solid.
-
----
-
 # **1.1 Introduction**
 
 India’s payment ecosystem has shifted dramatically in the last decade. The launch of UPI in 2016 changed how citizens pay for everyday needs—groceries, bills, travel, micro-payments, and e-commerce. With instant transfers, zero fees, and widespread merchant acceptance, UPI has become the dominant retail payment channel in India. Cards continue to play a strong role – particularly for high-value purchases and online shopping – while cash remains relevant for small retail spends, rural markets, and traditional consumers.

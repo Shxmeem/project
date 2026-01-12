@@ -56,9 +56,9 @@ A structured questionnaire was used as the main tool for data collection.
 * Percentage method
 
 ## 1.6 Limitations of the Study
-The sample size is limited to 80 respondents only.
-Some respondents showed hesitation in providing accurate information.
-The study was conducted within a short time period, which limited deeper analysis.
+* The sample size is limited to 80 respondents only.
+* Some respondents showed hesitation in providing accurate information.
+* The study was conducted within a short time period, which limited deeper analysis.
 
 ## 1.7 Chapterisation
 

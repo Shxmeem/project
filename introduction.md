@@ -1,4 +1,6 @@
-# A Study on Factors Influencing People's Preference for UPI, Card or Cash Daily Transactions
+# Project Topic: A STUDY ON FACTORS INFLUENCING PEOPLE'S PREFERENCE FOR UPI, CARD OR CASH DAILY TRANSACTIONS
+
+# Chapter 1 - Introduction
 
 ## 1.1 Introduction
 

@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research Project: Payment Preferences in India - Chapter 1</title>
+    <style>
+        /* ===== CSS STYLES FOR RESEARCH PROJECT ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f7fa;
+            max-width: 210mm;
+            margin: 20px auto;
+            padding: 25mm;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            position: relative;
+        }
+
+        /* Watermark for Chapter */
+        body::before {
+            content: "CHAPTER 1";
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-45deg);
+            font-size: 80px;
+            color: rgba(52, 152, 219, 0.1);
+            font-weight: bold;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        /* ===== HEADER AND TITLE ===== */
+        .research-header {
+            text-align: center;
+            margin-bottom: 2.5em;
+            padding-bottom: 1.5em;
+            border-bottom: 2px solid #3498db;
+        }
+
+        .main-title {
+            font-size: 2.2em;
+            color: #2c3e50;
+            margin-bottom: 0.3em;
+            font-weight: bold;
+            line-height: 1.3;
+        }
+
+        .chapter-title {
+            font-size: 1.4em;
+            color: #2980b9;
+            font-weight: bold;
+            margin-bottom: 1em;
+            padding: 0.5em;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            border-left: 4px solid #3498db;
+        }
+
+        .author-info {
+            font-style: italic;
+            color: #7f8c8d;
+            margin-top: 1em;
+            font-size: 0.95em;
+        }
+
+        /* ===== SECTION STYLING ===== */
+        .section {
+            margin-bottom: 2.5em;
+            page-break-inside: avoid;
+        }
+
+        .section-number {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 0.2em 0.6em;
+            border-radius: 3px;
+            margin-right: 0.5em;
+            font-weight: bold;
+            min-width: 45px;
+            text-align: center;
+        }
+
+        .section-title {
+            font-size: 1.6em;
+            color: #2c3e50;
+            margin-bottom: 0.8em;
+            padding-bottom: 0.3em;
+            border-bottom: 1px solid #ecf0f1;
+        }
+
+        .section-content {
+            text-align: justify;
+            font-size: 1.05em;
+        }
+
+        /* ===== PARAGRAPH AND TEXT STYLING ===== */
+        p {
+            margin-bottom: 1em;
+            text-align: justify;
+        }
+
+        .highlight {
+            background-color: #fffde7;
+            padding: 0.2em 0.4em;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+
+        /* ===== PAYMENT METHOD STYLING ===== */
+        .payment-method {
+            font-weight: bold;
+            padding: 0.1em 0.4em;
+            border-radius: 3px;
+            white-space: nowrap;
+        }
+
+        .upi {
+            color: #8e44ad;
+            background-color: #f4ecf7;
+            border-left: 3px solid #8e44ad;
+        }
+
+        .card {
+            color: #e74c3c;
+            background-color: #fdedec;
+            border-left: 3px solid #e74c3c;
+        }
+
+        .cash {
+            color: #27ae60;
+            background-color: #eafaf1;
+            border-left: 3px solid #27ae60;
+        }
+
+        /* ===== LISTS ===== */
+        .objectives-list {
+            list-style-type: none;
+            margin-left: 1em;
+            margin-bottom: 1.5em;
+            background-color: #f8f9fa;
+            padding: 1.5em;
+            border-radius: 5px;
+            border-left: 4px solid #3498db;
+        }
+
+        .objectives-list li {
+            position: relative;
+            padding-left: 2em;
+            margin-bottom: 0.8em;
+            padding-top: 0.3em;
+            padding-bottom: 0.3em;
+        }
+
+        .objectives-list li:before {
+            content: "✓";
+            color: #27ae60;
+            font-size: 1.2em;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+            top: 0.3em;
+        }
+
+        .bullet-list {
+            margin-left: 2em;
+            margin-bottom: 1.5em;
+        }
+
+        .bullet-list li {
+            margin-bottom: 0.5em;
+            padding-left: 0.5em;
+        }
+
+        /* ===== METHODOLOGY BOX ===== */
+        .methodology-box {
+            background-color: #f0f8ff;
+            border: 1px solid #d1e7ff;
+            border-radius: 8px;
+            padding: 1.5em;
+            margin: 1.5em 0;
+        }
+
+        .methodology-title {
+            color: #2980b9;
+            font-weight: bold;
+            margin-bottom: 0.8em;
+            font-size: 1.1em;
+            border-bottom: 1px dashed #3498db;
+            padding-bottom: 0.3em;
+        }
+
+        .methodology-item {
+            margin-bottom: 1em;
+        }
+
+        .methodology-item strong {
+            color: #2c3e50;
+            display: inline-block;
+            min-width: 150px;
+        }
+
+        /* ===== LIMITATIONS STYLING ===== */
+        .limitations-box {
+            background-color: #fff8e1;
+            border: 1px solid #ffd54f;
+            padding: 1.5em;
+            margin: 1.5em 0;
+            border-radius: 5px;
+            border-left: 5px solid #ff9800;
+        }
+
+        .limitations-title {
+            color: #ff8f00;
+            margin-bottom: 0.8em;
+            font-weight: bold;
+        }
+
+        .limitations-list {
+            list-style-type: none;
+            margin-left: 1em;
+        }
+
+        .limitations-list li {
+            position: relative;
+            padding-left: 1.8em;
+            margin-bottom: 0.7em;
+        }
+
+        .limitations-list li:before {
+            content: "⚠";
+            color: #ff9800;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        /* ===== CHAPTERISATION ===== */
+        .chapterisation-box {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1.5em;
+            margin: 2em 0;
+        }
+
+        .chapterisation-title {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 1em;
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+
+        .chapter-list {
+            list-style-type: none;
+            counter-reset: chapter-counter;
+            margin-left: 0;
+        }
+
+        .chapter-list li {
+            counter-increment: chapter-counter;
+            padding-left: 3em;
+            position: relative;
+            margin-bottom: 1.2em;
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+            border-bottom: 1px dotted #eee;
+        }
+
+        .chapter-list li:last-child {
+            border-bottom: none;
+        }
+
+        .chapter-list li:before {
+            content: counter(chapter-counter);
+            background-color: #3498db;
+            color: white;
+            font-weight: bold;
+            width: 2em;
+            height: 2em;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            left: 0;
+            top: 0.3em;
+            font-size: 1em;
+        }
+
+        .chapter-desc {
+            font-style: italic;
+            color: #666;
+            font-size: 0.95em;
+            margin-top: 0.3em;
+        }
+
+        /* ===== FOOTER ===== */
+        .page-footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #7f8c8d;
+            margin-top: 3em;
+            padding-top: 1em;
+            border-top: 1px solid #ddd;
+        }
+
+        .page-number {
+            display: inline-block;
+            padding: 0.2em 1em;
+            background-color: #f8f9fa;
+            border-radius: 15px;
+            font-weight: bold;
+        }
+
+        /* ===== RESPONSIVE DESIGN ===== */
+        @media print {
+            body {
+                box-shadow: none;
+                margin: 0;
+                padding: 20mm;
+                background-color: white;
+            }
+            
+            body::before {
+                display: none;
+            }
+            
+            .no-print {
+                display: none;
+            }
+            
+            .section {
+                page-break-inside: avoid;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            body {
+                margin: 10px;
+                padding: 20px;
+                box-shadow: none;
+            }
+            
+            .main-title {
+                font-size: 1.8em;
+            }
+            
+            .section-title {
+                font-size: 1.4em;
+            }
+            
+            .methodology-item strong {
+                min-width: 120px;
+            }
+        }
+
+        /* ===== UTILITY CLASSES ===== */
+        .text-center {
+            text-align: center;
+        }
+
+        .text-right {
+            text-align: right;
+        }
+
+        .text-justify {
+            text-align: justify;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .italic {
+            font-style: italic;
+        }
+
+        .mt-1 { margin-top: 0.5em; }
+        .mt-2 { margin-top: 1em; }
+        .mt-3 { margin-top: 1.5em; }
+        .mb-1 { margin-bottom: 0.5em; }
+        .mb-2 { margin-bottom: 1em; }
+        .mb-3 { margin-bottom: 1.5em; }
+    </style>
+</head>
+<body>
+    <!-- Research Header -->
+    <div class="research-header">
+        <h1 class="main-title">A Study on Factors Influencing People's Preference for UPI, Card or Cash for Daily Transactions</h1>
+        <div class="chapter-title">Chapter 1: Introduction</div>
+        <div class="author-info">Research Project | Academic Year 2025-2026</div>
+    </div>
+
+    <!-- Section 1.1: Introduction -->
+    <div class="section">
+        <h2 class="section-title"><span class="section-number">1.1</span> Introduction</h2>
+        <div class="section-content">
+            <p>India's payment system has undergone a major transformation over the last decade, shifting from a cash-centric model to a digitally driven one. The launch of the <span class="payment-method upi">Unified Payments Interface (UPI)</span> in 2016 marked a turning point. UPI enabled instant money transfers, QR-based merchant payments, and seamless integration with smartphones for making digital payments accessible even to first-time users. As a result, UPI has become the preferred mode for day-to-day transactions such as groceries, food orders, travel payments, and peer-to-peer transfers.</p>
+            
+            <p><span class="payment-method card">Card payments (credit and debit cards)</span> continue to remain relevant, especially for high-value purchases, e-commerce transactions, and retail outlets with card-swipe machines. <span class="payment-method cash">Cash</span>, despite the growth of digital alternatives, still plays a significant role in India due to habits, accessibility issues in rural regions, and its universal acceptance.</p>
+            
+            <p>Government programs like Digital India, financial inclusion through Jan Dhan accounts, smartphone penetration, and COVID-19-driven behavior shifts have accelerated digital adoption. However, consumer choices remain diverse. While <span class="payment-method upi">UPI</span> is dominant among urban youth, <span class="payment-method cash">cash</span> continues to be preferred among older and rural demographics. <span class="payment-method card">Cards</span> retain strong usage in organized retail and online marketplaces.</p>
+            
+            <p>This study investigates the factors that influence people's preference for <span class="payment-method upi">UPI</span>, <span class="payment-method card">card</span>, or <span class="payment-method cash">cash</span> in daily transactions across India.</p>
+        </div>
+    </div>
+
+    <!-- Section 1.2: Statement of the Problem -->
+    <div class="section">
+        <h2 class="section-title"><span class="section-number">1.2</span> Statement of the Problem</h2>
+        <div class="section-content">
+            <p>Despite the availability of secure and convenient digital payment systems like <span class="payment-method upi">UPI</span>, many people continue to prefer <span class="payment-method cash">cash</span> due to habits, lack of awareness, fear of technology, and perceived complexity. Cash transactions also involve practical risks such as counterfeit or damaged currency. <span class="payment-method card">Card payments</span> are commonly used for higher-value and business transactions, especially where trust and international usage are important.</p>
+            
+            <p class="highlight">This study seeks to understand the factors influencing people's preference for <span class="payment-method upi">UPI</span>, <span class="payment-method card">card</span>, or <span class="payment-method cash">cash</span> in daily transactions.</p>
+        </div>
+    </div>
+
+    <!-- Section 1.3: Objectives of the Study -->
+    <div class="section">
+        <h2 class="section-title"><span class="section-number">1.3</span> Objectives of the Study</h2>
+        <div class="section-content">
+            <ul class="objectives-list">
+                <li>To identify the key factors influencing people's preference for <span class="payment-method upi">UPI</span>, <span class="payment-method cash">cash</span>, and <span class="payment-method card">card payments</span>.</li>
+                <li>To compare the choice of payment methods between rural and urban respondents.</li>
+                <li>To analyze the level of technological awareness among users based on age, gender, and occupation.</li>
+                <li>To study the pattern of usage of different payment methods in daily transactions.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Section 1.4: Scope of the Study -->
+    <div class="section">
+        <h2 class="section-title"><span class="section-number">1.4</span> Scope of the Study</h2>
+        <div class="section-content">
+            <p>This research covers Indian citizens who are involved in daily financial transactions. It focuses on three major payment methods: <span class="payment-method upi">UPI</span>, <span class="payment-method card">credit and debit cards</span>, and <span class="payment-method cash">cash</span>. The study aims to understand user preferences among these payment methods and identify the issues faced while using each method. The findings are intended to provide insights into consumer behavior related to everyday payment choices.</p>
+            
+            <p>The study also considers demographic factors such as age, gender, occupation, and location (rural and urban) to understand how these variables influence payment behavior. It is limited to general day-to-day transactions and does not focus on large-scale corporate or institutional payment systems.</p>
+        </div>
+    </div>
+
+    <!-- Section 1.5: Research Methodology -->
+    <div class="section">
+        <h2 class="section-title"><span class="section-number">1.5</span> Research Methodology</h2>
+        <div class="section-content">
+            <div class="methodology-box">
+                <div class="methodology-title">RESEARCH DESIGN DETAILS</div>
+                
+                <div class="methodology-item">
+                    <strong>AREA OF THE STUDY:</strong>
+                    <span>The area of the study is confined to Indian citizens who are involved in daily financial transactions.</span>
+                </div>
+                
+                <div class="methodology-item">
+                    <strong>SAMPLE SIZE:</strong>
+                    <span>A total of 80 samples were collected from Indian citizens.</span>
+                </div>
+                
+                <div class="methodology-item">
+                    <strong>SAMPLING METHOD:</strong>
+                    <span>Convenience sampling method was used for data collection.</span>
+                </div>
+                
+                <div class="methodology-item mt-2">
+                    <strong>SOURCES OF DATA:</strong>
+                    <div class="mt-1">
+                        <div class="bold">Primary Data:</div>
+                        <p>Primary data were collected directly from the respondents using a structured questionnaire.</p>
+                        
+                        <div class="bold">Secondary Data:</div>
+                        <p>Secondary data were collected from the internet, books, magazines, Wikipedia, payment gateway websites, and government sources.</p>
+                    </div>
+                </div>
+                
+                <div class="methodology-item">
+                    <strong>TOOLS FOR DATA COLLECTION:</strong>
+                    <span>A structured questionnaire was used as the main tool for data collection.</span>
+                </div>
+                
+                <div class="methodology-item">
+                    <strong>TOOLS FOR DATA ANALYSIS AND PRESENTATION:</strong>
+                    <ul class="bullet-list">
+                        <li>Tables</li>
+                        <li>Diagrams</li>
+                        <li>Charts</li>
+                        <li>Percentage method</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 1.6: Limitations of the Study -->
+    <div class="section">
+        <h2 class="section-title"><span class="section-number">1.6</span> Limitations of the Study</h2>
+        <div class="section-content">
+            <div class="limitations-box">
+                <h3 class="limitations-title">Study Constraints</h3>
+                <ul class="limitations-list">
+                    <li>The sample size is limited to 80 respondents only.</li>
+                    <li>Some respondents showed hesitation in providing accurate information.</li>
+                    <li>The study was conducted within a short time period, which limited deeper analysis.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section 1.7: Chapterisation -->
+    <div class="section">
+        <h2 class="section-title"><span class="section-number">1.7</span> Chapterisation</h2>
+        <div class="section-content">
+            <div class="chapterisation-box">
+                <div class="chapterisation-title">Research Project Structure</div>
+                <ul class="chapter-list">
+                    <li>
+                        <div class="bold">Chapter 1: Introduction</div>
+                        <div class="chapter-desc">Includes statements of the problem, objectives, scope, research methodology, limitations and the chapter scheme</div>
+                    </li>
+                    <li>
+                        <div class="bold">Chapter 2: Review of Literature</div>
+                        <div class="chapter-desc">Examination of existing research and theories related to payment preferences</div>
+                    </li>
+                    <li>
+                        <div class="bold">Chapter 3: Theoretical Framework</div>
+                        <div class="chapter-desc">Development of conceptual framework and research hypotheses</div>
+                    </li>
+                    <li>
+                        <div class="bold">Chapter 4: Data Analysis and Interpretation</div>
+                        <div class="chapter-desc">Statistical analysis of collected data with findings</div>
+                    </li>
+                    <li>
+                        <div class="bold">Chapter 5: Findings, Suggestions and Conclusion</div>
+                        <div class="chapter-desc">Summary of research findings, recommendations, and concluding remarks</div>
+                    </li>
+                </ul>
+                <p class="text-center mt-2 italic">This document presents Chapter 1 of the complete Research Project.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page Footer -->
+    <div class="page-footer">
+        <div class="page-number">Page 1</div>
+        <div class="mt-1">Research Project | Chapter 1: Introduction</div>
+        <div class="mt-1 no-print" style="font-size: 0.8em; color: #95a5a6;">
+            <em>This is a complete standalone HTML document. Save this file with a .html extension to view in browser.</em>
+        </div>
+    </div>
+
+    <!-- Print Button (hidden when printing) -->
+    <div class="no-print text-center mt-3">
+        <button onclick="window.print()" style="padding: 10px 20px; background-color: #3498db; color: white; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">
+            📄 Print This Chapter
+        </button>
+        <p style="font-size: 0.9em; color: #7f8c8d; margin-top: 10px;">Click above to generate a printer-friendly version</p>
+    </div>
+
+    <script>
+        // Simple script for print functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log("Research Chapter 1 loaded successfully");
+            
+            // Add current date to footer if desired
+            const dateOptions = { year: 'numeric', month: 'long', day: 'numeric' };
+            const currentDate = new Date().toLocaleDateString('en-US', dateOptions);
+            
+            // Uncomment below to add date to footer
+            // document.querySelector('.page-footer').innerHTML += `<div>Generated on: ${currentDate}</div>`;
+        });
+    </script>
+</body>
+</html>

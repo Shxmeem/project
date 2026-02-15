@@ -1,444 +1,439 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Payment Preferences in Malappuram Municipality - Final Project</title>
-    <style>
-        @page {
-            size: letter;
-            margin: 15mm;
-        }
-        
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-        
-        body {
-            font-family: 'Times New Roman', Times, serif;
-            font-size: 12pt;
-            line-height: 1.5;
-            color: #000;
-            background-color: #fff;
-            padding: 15px;
-        }
-        
-        .page {
-            width: 216mm;
-            min-height: 279mm;
-            margin: 0 auto 20px auto;
-            position: relative;
-            page-break-after: always;
-            border: 4px solid #000;
-            padding: 25mm 30mm;
-            background-color: #fff;
-        }
-        
-        .inner-border {
-            position: absolute;
-            top: 15px;
-            left: 15px;
-            right: 15px;
-            bottom: 15px;
-            border: 2px solid #000;
-            pointer-events: none;
-        }
-        
-        .page-number {
-            position: absolute;
-            bottom: 20mm;
-            right: 25mm;
-            font-size: 11pt;
-        }
-        
-        h1, h2, h3, h4 {
-            font-weight: bold;
-            color: #000;
-        }
-        
-        h1 {
-            font-size: 18pt;
-            text-align: center;
-            margin-top: 110mm;
-            margin-bottom: 10mm;
-            text-transform: uppercase;
-        }
-        
-        h2 {
-            font-size: 14pt;
-            margin-top: 8mm;
-            margin-bottom: 4mm;
-            text-align: left;
-        }
-        
-        h3 {
-            font-size: 13pt;
-            margin-top: 6mm;
-            margin-bottom: 3mm;
-            text-align: left;
-        }
-        
-        p {
-            margin-bottom: 4mm;
-            text-align: justify;
-            text-justify: inter-word;
-        }
-        
-        ul, ol {
-            margin-left: 10mm;
-            margin-bottom: 4mm;
-        }
-        
-        li {
-            margin-bottom: 2mm;
-        }
-        
-        .chapter-title {
-            page-break-before: always;
-        }
-        
-        .chapter-title h1 {
-            margin-top: 110mm;
-        }
-        
-        .content {
-            text-align: left;
-        }
-        
-        .no-border {
-            border: none !important;
-        }
-        
-        .no-border .inner-border {
-            display: none;
-        }
-        
-        @media print {
-            body {
-                padding: 0;
-            }
-            
-            .page {
-                margin: 0;
-                box-shadow: none;
-            }
-            
-            .no-print {
-                display: none;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="no-print" style="text-align: center; padding: 20px; background-color: #f0f0f0; margin-bottom: 20px;">
-        <h2>Final Year Project - PDF Generator</h2>
-        <p>Click the button below to print/save as PDF. Make sure to:</p>
-        <ol style="display: inline-block; text-align: left; margin: 10px 0;">
-            <li>Set paper size to "Letter" or "8.5x11"</li>
-            <li>Set margins to "Default" or "Minimum"</li>
-            <li>Enable "Background graphics" in print settings</li>
-        </ol>
-        <button onclick="window.print()" style="padding: 10px 20px; font-size: 16px; margin-top: 10px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer;">
-            Print / Save as PDF
-        </button>
-    </div>
+# 4. Data Analysis and Interpretation
 
-    <!-- Chapter 1 Title Page -->
-    <div class="page chapter-title">
-        <h1>CHAPTER 1<br>INTRODUCTION</h1>
-        <div class="inner-border"></div>
-        <div class="page-number">1</div>
-    </div>
+## 4.1 Age-wise Classification
 
-    <!-- Chapter 1 Content - Only 1.1 Introduction -->
-    <div class="page">
-        <div class="content">
-            <h2>1.1 Introduction</h2>
-            <p>India's payment system has undergone a major transformation over the last decade, shifting from a cash-centric model to a digitally driven one. The launch of the Unified Payments Interface (UPI) in 2016 marked a turning point. UPI enabled instant money transfers, QR-based merchant payments, and seamless integration with smartphones, making digital payments accessible even to first-time users. As a result, UPI has become a preferred mode for day-to-day transactions such as groceries, food orders, travel payments, and peer-to-peer transfers.</p>
-            
-            <p>Card payments (credit and debit cards) continue to remain relevant, especially for high-value purchases, e-commerce transactions, and retail outlets with card-swipe machines. Cash, despite the growth of digital alternatives, still plays a significant role in India due to habits, accessibility issues, and its universal acceptance. Similar patterns can also be observed among consumers in Malappuram Municipality.</p>
-            
-            <p>Government programs like Digital India, financial inclusion through Jan Dhan accounts, smartphone penetration, and COVID-19-driven behavior shifts have accelerated digital adoption. However, consumer choices remain diverse. While UPI is dominant among urban youth, cash continues to be preferred among older and less digitally aware users. These differences are also reflected in the payment behavior of residents of Malappuram Municipality.</p>
-            
-            <p>This study investigates the factors that influence people's preference for UPI, card, or cash in daily transactions, with special reference to Malappuram Municipality.</p>
-        </div>
-        <div class="inner-border"></div>
-        <div class="page-number">2</div>
-    </div>
+| Age Group | Responses | Percentage |
+| :--- | :---: | :---: |
+| 18–25 | 46 | 57.5% |
+| 26–35 | 26 | 32.5% |
+| 36–45 | 7 | 8.75% |
+| 46 & Above | 1 | 1.25% |
+| **Total** | **80** | **100%** |
 
-    <!-- Chapter 1 Content - Statement of the Problem -->
-    <div class="page">
-        <div class="content">
-            <h2>1.2 Statement of the Problem</h2>
-            <p>Despite the availability of secure and convenient digital payment systems like UPI, many people continue to prefer cash due to habits, lack of awareness, fear of technology, and perceived complexity. Cash transactions also involve practical risks such as counterfeit or damaged currency. Card payments are commonly used for higher-value and business transactions, especially where trust and international usage are important.</p>
-            
-            <p>In Malappuram Municipality, users exhibit mixed preferences for UPI, card, and cash based on factors such as age, education, accessibility, and trust. This study seeks to understand the factors influencing people's preference for UPI, card, or cash in daily transactions, with special reference to Malappuram Municipality.</p>
-            
-            <h2>1.3 Objectives of the Study</h2>
-            <ol>
-                <li>To identify the key factors influencing people's preference for UPI, cash, and card payments in Malappuram Municipality.</li>
-                <li>To compare the choice of payment methods between rural and urban respondents in the study area.</li>
-                <li>To analyze the level of technological awareness among users based on age, gender, and occupation.</li>
-                <li>To study the pattern of usage of different payment methods in daily transactions.</li>
-            </ol>
-        </div>
-        <div class="inner-border"></div>
-        <div class="page-number">3</div>
-    </div>
+**Interpretation:**
+The majority of respondents (57.5%) belong to the 18–25 age group, indicating higher participation of youth. This suggests that younger individuals are more involved in digital and daily payment activities.
 
-    <!-- Chapter 1 Content - Scope of the Study -->
-    <div class="page">
-        <div class="content">
-            <h2>1.4 Scope of the Study</h2>
-            <p>This research covers individuals who are involved in daily financial transactions, with special reference to the residents of Malappuram Municipality. It focuses on three major payment methods: UPI, credit and debit cards, and cash. The study aims to understand user preferences among these payment methods and identify the issues faced while using each method.</p>
-            
-            <p>The study also considers demographic factors such as age, gender, occupation, and location (rural and urban) to understand how these variables influence payment behavior in Malappuram Municipality. It is limited to general day-to-day transactions and does not focus on large-scale corporate or institutional payment systems.</p>
-            
-            <h2>1.5 Research Methodology</h2>
-            <h3>AREA OF THE STUDY:</h3>
-            <p>The area of the study is confined to residents of Malappuram Municipality who are involved in daily financial transactions.</p>
-            
-            <h3>SAMPLE SIZE:</h3>
-            <p>A total of 80 samples were collected from respondents within Malappuram Municipality.</p>
-        </div>
-        <div class="inner-border"></div>
-        <div class="page-number">4</div>
-    </div>
+---
 
-    <!-- Chapter 1 Content - Research Methodology Continued -->
-    <div class="page">
-        <div class="content">
-            <h3>SAMPLING METHOD:</h3>
-            <p>Convenience sampling method was used for data collection.</p>
-            
-            <h3>SOURCES OF DATA</h3>
-            <p><strong>Primary Data:</strong><br>
-            Primary data were collected directly from the respondents in Malappuram Municipality using a structured questionnaire.</p>
-            
-            <p><strong>Secondary Data:</strong><br>
-            Secondary data were collected from the internet, books, magazines, Wikipedia, payment gateway websites, and government sources.</p>
-            
-            <h3>TOOLS FOR DATA COLLECTION</h3>
-            <p>A structured questionnaire was used as the main tool for data collection.</p>
-            
-            <h3>TOOLS FOR DATA ANALYSIS AND PRESENTATION</h3>
-            <ul>
-                <li>Tables</li>
-                <li>Diagrams</li>
-                <li>Charts</li>
-                <li>Percentage method</li>
-            </ul>
-        </div>
-        <div class="inner-border"></div>
-        <div class="page-number">5</div>
-    </div>
+## 4.2 Gender-wise Classification
 
-    <!-- Chapter 1 Content - Limitations and Chapterisation -->
-    <div class="page">
-        <div class="content">
-            <h2>1.6 Limitations of the Study</h2>
-            <ol>
-                <li>The sample size is limited to 80 respondents only within Malappuram Municipality.</li>
-                <li>Some respondents showed hesitation in providing accurate information.</li>
-                <li>The study was conducted within a short time period, which limited deeper analysis.</li>
-            </ol>
-            
-            <h2>1.7 Chapterisation</h2>
-            <p><strong>Chapter 1:</strong><br>
-            The introduction chapter includes statements of the problem, objective, scope, research methodology, limitations and the chapter scheme.</p>
-            
-            <p><strong>Chapter 2:</strong><br>
-            Review of Literature</p>
-            
-            <p><strong>Chapter 3:</strong><br>
-            Theoretical Framework</p>
-            
-            <p><strong>Chapter 4:</strong><br>
-            Data Analysis and Interpretation</p>
-            
-            <p><strong>Chapter 5:</strong><br>
-            Findings, Suggestions and Conclusion</p>
-        </div>
-        <div class="inner-border"></div>
-        <div class="page-number">6</div>
-    </div>
+| Gender | Responses | Percentage |
+| :--- | :---: | :---: |
+| Male | 56 | 70% |
+| Female | 24 | 30% |
+| **Total** | **80** | **100%** |
 
-    <!-- Chapter 2 Title Page -->
-    <div class="page chapter-title">
-        <h1>CHAPTER 2<br>REVIEW OF LITERATURE</h1>
-        <div class="inner-border"></div>
-        <div class="page-number">7</div>
-    </div>
+**Interpretation:**
+Male respondents constitute a higher share (70%) compared to females (30%), indicating higher participation of males in the survey.
 
-    <!-- Chapter 2 Content - First Part -->
-    <div class="page">
-        <div class="content">
-            <h2>2.1 Sahoo et al. (2024)</h2>
-            <p>UPI's rapid adoption in India is driven by ease of use, interoperability, and security, significantly boosting financial inclusion and reducing cash dependence. The review highlights how UPI has transformed digital payments across sectors.</p>
-            
-            <h2>2.2 Dhivya et al. (2025)</h2>
-            <p>Study based on UTAUT factors shows UPI's user-friendly design and trust features play a major role in adoption, with projections indicating massive future growth in transaction volumes.</p>
-            
-            <h2>2.3 RBI Study (2025)</h2>
-            <p>Reserve Bank of India analysis found that rising UPI adoption correlates with reduced cash demand, indicating UPI's strong substitution effect on physical currency.</p>
-            
-            <h2>2.4 Government Report on Digital Payments (2024)</h2>
-            <p>Data from the Ministry of Finance shows UPI's exponential growth in transactions over the past decade, accounting for the majority share of digital payment volume in India.</p>
-            
-            <h2>2.5 IJARESM Conclusion (2023)</h2>
-            <p>Research shows UPI's significant impact on India's shift toward a cashless economy, with rapid transaction growth and widespread integration into daily financial activities.</p>
-                        
-            
-       </div>
-        <div class="inner-border"></div>
-        <div class="page-number">8</div>
-    </div>
+---
 
-    <!-- Chapter 2 Content - Second Part -->
-    <div class="page">
-        <div class="content">
-            <h2>2.6 UPI Adoption Patterns (2024)</h2>
-            <p>A review article highlights UPI's inclusion of underbanked populations, expanding access to formal financial systems and aiding economic engagement beyond major cities.</p>
+## 4.3 Area of Residence
 
-            <h2>2.7 RBI Annual Report (2024)</h2>
-            <p>Reserve Bank data indicates UPI accounted for nearly four out of five digital transactions in India, showing its dominance over other digital modes.</p>
-            <h2>2.8 ShodhKosh Study (2024)</h2>
-            <p>This paper traces UPI's emergence and growth post-2016, noting its role in improving financial transparency and literacy through digital payments.</p>
-            
-            <h2>2.9 Behavioral Impact Study (2024)</h2>
-            <p>Academic research indicates that mobile payments like UPI can influence spending behavior, often increasing purchase amounts compared to cash, reflecting psychological effects of payment methods.</p>
-            
-            <h2>2.10 NPCI Performance Report (2025)</h2>
-            <p>NPCI's financial results reflect rising digital payment adoption and indicate UPI's central role in driving the organization's growth.</p>
-            
-            <h2>2.11 RBI Economist Study (2024)</h2>
-            <p>Analysis shows that UPI has surged in P2M (person-to-merchant) usage, suggesting increasing acceptance for everyday purchases and declining reliance on cash post-pandemic.</p>
-            
-        </div>
-        <div class="inner-border"></div>
-        <div class="page-number">9</div>
-    </div>
+| Area | Responses | Percentage |
+| :--- | :---: | :---: |
+| City/Town | 48 | 60% |
+| Village | 32 | 40% |
+| **Total** | **80** | **100%** |
 
-    <!-- Chapter 2 Content - Third Part -->
-    <div class="page">
-        <div class="content">
-            <h2>2.12 Regional Growth Patterns (2025)</h2>
-            <p>State-level data highlights strong UPI adoption in regions like Telangana, reflecting deeper integration of digital payments across different Indian states.</p>
+**Interpretation:**
+Most respondents (60%) are from urban areas, showing higher digital exposure compared to rural respondents (40%).
 
-            <h2>2.13 UPI Global Positioning (2025)</h2>
-            <p>Reports suggest India's UPI surpasses major global platforms in real-time payments, underscoring its scale and influence beyond national borders.</p>
-            
-            <h2>2.14 Mobile Payments Future (2025)</h2>
-            <p>Industry projections aim to bring hundreds of millions of new users into India's UPI ecosystem, indicating continued growth and reduced cash dependency.</p>
-            
-            <h2>2.15 Fintech Integration (2025)</h2>
-            <p>Emerging research explores integrating UPI with broader financial services, such as credit delivery, expanding its utility beyond basic transactions.</p>
-        </div>
-        <div class="inner-border"></div>
-        <div class="page-number">10</div>
-    </div>
+---
 
-    <!-- Chapter 3 Title Page -->
-    <div class="page chapter-title">
-        <h1>CHAPTER 3<br>THEORETICAL FRAMEWORK</h1>
-        <div class="inner-border"></div>
-        <div class="page-number">11</div>
-    </div>
+## 4.4 Educational Qualification
 
-    <!-- Chapter 3 Content - First Part -->
-    <div class="page">
-        <div class="content">
-            <h2>3.1 Definition of Payment Systems</h2>
-            <p>A payment system refers to the methods used for transferring money in exchange for goods and services. The major payment methods used in India and within Malappuram Municipality today are <strong>UPI</strong>, <strong>debit/credit cards</strong>, and <strong>cash</strong>.</p>
-            
-            <p>The evolution of payment systems has improved speed, convenience, and accessibility. The choice of payment method varies based on user preference and situation. Payment systems play an important role in everyday economic activities of people in Malappuram Municipality.</p>
-            
-            <h2>3.2 Definition of UPI (Unified Payments Interface)</h2>
-            <p><strong>Unified Payments Interface (UPI)</strong> is a real-time digital payment system developed by NPCI in 2016. It allows instant fund transfer between bank accounts through mobile apps. In Malappuram Municipality, UPI is widely used for small purchases, bill payments, and peer-to-peer transfers.</p>
-            
-            <p>UPI supports merchant payments, bill payments, and online transactions. It works 24/7 and does not require sharing bank details. UPI has become one of the most popular digital payment systems in the study area.</p>
-            
-            <h2>3.3 Features of Payment Methods</h2>
-            <p><strong>Key Features:</strong></p>
-            <ul>
-                <li>Instant money transfer through <strong>UPI</strong> in daily transactions.</li>
-                <li>24/7 availability of digital payment services.</li>
-                <li>QR code-based payments for easy merchant use in shops and markets.</li>
-                <li><strong>Card payments</strong> support online and high-value purchases.</li>
-                <li><strong>Cash</strong> provides universal acceptance without the need for technology.</li>
-            </ul>
-        </div>
-        <div class="inner-border"></div>
-        <div class="page-number">12</div>
-    </div>
+| Qualification | Responses | Percentage |
+| :--- | :---: | :---: |
+| School Level | 13 | 16.25% |
+| Undergraduate | 27 | 33.75% |
+| Postgraduate | 40 | 50% |
+| Other | 0 | 0% |
+| **Total** | **80** | **100%** |
 
-    <!-- Chapter 3 Content - Second Part -->
-    <div class="page">
-        <div class="content">
-            <h2>3.4 Characteristics of Payment Systems</h2>
-            <p><strong>Main Characteristics:</strong></p>
-            <ul>
-                <li>Convenience in completing transactions quickly.</li>
-                <li>Speed of payment processing.</li>
-                <li>Security and privacy in transactions.</li>
-                <li>Accessibility across different population groups.</li>
-                <li>Reliability for regular financial activities in Malappuram Municipality.</li>
-            </ul>
-            
-            <h2>3.5 Importance of Payment Systems</h2>
-            <p><strong>Significance:</strong></p>
-            <ul>
-                <li>Promotes financial inclusion among the local population.</li>
-                <li>Reduces dependency on physical <strong>cash</strong> in daily transactions.</li>
-                <li>Supports the growth of small businesses and online services.</li>
-                <li>Improves transparency in financial transactions.</li>
-                <li>Encourages the development of a digital economy in Malappuram Municipality.</li>
-            </ul>
-        </div>
-        <div class="inner-border"></div>
-        <div class="page-number">13</div>
-    </div>
+**Interpretation:**
+Half of the respondents are postgraduates, indicating a highly educated sample which may positively influence digital payment adoption.
 
-    <!-- Chapter 3 Content - Third Part -->
-    <div class="page">
-        <div class="content">
-            <h2>3.6 Challenges of Payment Methods</h2>
-            <p><strong>Key Challenges:</strong></p>
-            <ul>
-                <li>Fear of online fraud and cybercrime among some users.</li>
-                <li>Network and internet connectivity issues in certain areas.</li>
-                <li>Lack of digital awareness among elderly users.</li>
-                <li>Technical failures such as transaction decline or delay.</li>
-                <li>Resistance to change due to strong habit of using <strong>cash</strong>.</li>
-            </ul>
-            
-            <h2>3.7 Limitations of Payment Methods</h2>
-            <p><strong>Major Limitations:</strong></p>
-            <ul>
-                <li><strong>UPI</strong> requires smartphone and internet access.</li>
-                <li><strong>Card payments</strong> depend on POS machine availability.</li>
-                <li><strong>Cash</strong> can be lost, stolen, or damaged.</li>
-                <li>Digital payments may involve service charges in some cases.</li>
-                <li>Limited acceptance of digital payments in some small shops.</li>
-            </ul>
-        </div>
-        <div class="inner-border"></div>
-        <div class="page-number">14</div>
-    </div>
+---
 
-    <script>
-        // Add page numbers dynamically
-        document.addEventListener('DOMContentLoaded', function() {
-            const pages = document.querySelectorAll('.page');
-            pages.forEach((page, index) => {
-                const pageNumber = page.querySelector('.page-number');
-                if (pageNumber) {
-                    pageNumber.textContent = (index + 1);
-                }
-            });
-        });
-    </script>
-</body>
-</html>
+## 4.5 Occupation
+
+| Occupation | Responses | Percentage |
+| :--- | :---: | :---: |
+| Student | 37 | 46.25% |
+| Employed | 33 | 41.25% |
+| Self-Employed | 6 | 7.5% |
+| Unemployed | 4 | 5% |
+| **Total** | **80** | **100%** |
+
+**Interpretation:**
+Students form the largest group (46.25%), followed closely by employed individuals, indicating active usage of daily transaction methods among these groups.
+
+---
+
+## 4.6 Monthly Income
+
+| Income Level | Responses | Percentage |
+| :--- | :---: | :---: |
+| Below ₹10,000 | 34 | 42.5% |
+| ₹10,000–₹25,000 | 23 | 28.75% |
+| ₹25,001–₹50,000 | 16 | 20% |
+| Above ₹50,000 | 7 | 8.75% |
+| **Total** | **80** | **100%** |
+
+**Interpretation:**
+A large portion of respondents (42.5%) fall under the lower income group, showing that digital payments like UPI are accessible across income levels.
+
+---
+
+## 4.7 Preferred Mode for Daily Transactions
+
+| Payment Mode | Responses | Percentage |
+| :--- | :---: | :---: |
+| UPI | 37 | 46.25% |
+| Card | 30 | 37.5% |
+| Cash | 13 | 16.25% |
+| **Total** | **80** | **100%** |
+
+**Interpretation:**
+UPI is the most preferred payment method (46.25%), followed by cards, indicating a shift towards digital payments over cash.
+
+---
+
+## 4.8 Frequency of Using UPI
+
+| Frequency | Responses | Percentage |
+| :--- | :---: | :---: |
+| Rarely | 37 | 46.25% |
+| Occasionally | 24 | 30% |
+| Daily | 11 | 13.75% |
+| Frequently | 7 | 8.75% |
+| Never | 1 | 1.25% |
+| **Total** | **80** | **100%** |
+
+**Interpretation:**
+Most users use UPI occasionally or rarely, indicating that while adoption is high, daily dependency is still developing.
+
+---
+
+## 4.9 Frequency of Using Cash
+
+| Frequency | Responses | Percentage |
+| :--- | :---: | :---: |
+| Frequently | 34 | 42.5% |
+| Rarely | 24 | 30% |
+| Occasionally | 12 | 15% |
+| Daily | 9 | 11.25% |
+| Never | 1 | 1.25% |
+| **Total** | **80** | **100%** |
+
+**Interpretation:**
+Cash is still frequently used by a significant portion of respondents, highlighting its continued importance in daily transactions.
+
+---
+
+## 4.10 Frequency of Using Card
+
+| Frequency | Responses | Percentage |
+| :--- | :---: | :---: |
+| Frequently | 39 | 48.75% |
+| Daily | 14 | 17.5% |
+| Occasionally | 12 | 15% |
+| Rarely | 10 | 12.5% |
+| Never | 5 | 6.25% |
+| **Total** | **80** | **100%** |
+
+**Interpretation:**
+Card usage is high, especially for frequent transactions, indicating strong trust in card payments.
+
+---
+
+## 4.11 Purpose of Using UPI Mostly
+
+| Purpose | Responses | Percentage |
+| :--- | :---: | :---: |
+| Food Orders | 35 | 43.75% |
+| Bills & Recharges | 17 | 21.25% |
+| Grocery | 10 | 12.5% |
+| Travel | 9 | 11.25% |
+| Friends/Family Transfer | 9 | 11.25% |
+| **Total** | **80** | **100%** |
+
+**Interpretation:**
+UPI is mainly used for food orders and bill payments, showing its dominance in routine daily expenses.
+
+---
+
+## 4.12 Purpose of Using Card Mostly
+
+| Purpose | Responses | Percentage |
+| :--- | :---: | :---: |
+| Online Shopping | 47 | 58.75% |
+| Subscriptions | 13 | 16.25% |
+| Business Payments | 9 | 11.25% |
+| Large Purchases | 6 | 7.5% |
+| Hotels & Restaurants | 5 | 6.25% |
+| **Total** | **80** | **100%** |
+
+**Interpretation:**
+Cards are mainly preferred for online shopping, reflecting their importance in e-commerce transactions.
+
+---
+
+## 4.13 Purpose of Using Cash Mostly
+
+| Purpose | Responses | Percentage |
+| :--- | :---: | :---: |
+| Street Vendors | 34 | 42.5% |
+| Small Shops | 28 | 35% |
+| Transport | 16 | 20% |
+| Tips/Donations | 1 | 1.25% |
+| Other | 1 | 1.25% |
+| **Total** | **80** | **100%** |
+
+**Interpretation:**
+Cash is primarily used for street vendors and small shops, where digital payment acceptance may be limited.
+
+---
+
+## 4.14 UPI is Convenient to Use
+
+| Opinion | Responses | Percentage |
+| :--- | :---: | :---: |
+| Agree | 36 | 45% |
+| Strongly Agree | 30 | 37.5% |
+| Neutral | 8 | 10% |
+| Disagree | 5 | 6.25% |
+| Strongly Disagree | 1 | 1.25% |
+| **Total** | **80** | **100%** |
+
+**Interpretation:**
+A strong majority (82.5%) agree that UPI is convenient, confirming its acceptance and ease of use among respondents.
+
+---
+
+## 4.15 Cash is easy because no technology is required
+
+| Response | No. | % |
+| :--- | :---: | :---: |
+| Disagree | 51 | 63.75% |
+| Strongly Agree | 14 | 17.5% |
+| Neutral | 9 | 11.25% |
+| Agree | 5 | 6.25% |
+| Strongly Disagree | 1 | 1.25% |
+| **Total** | **80** | **100%** |
+
+**Interpretation:**
+A majority (63.75%) disagree with the statement, indicating that respondents do not consider lack of technology as a strong reason to prefer cash.
+
+---
+
+## 4.16 Cards are more secure for high-value transactions
+
+| Response | No. | % |
+| :--- | :---: | :---: |
+| Strongly Agree | 37 | 46.25% |
+| Agree | 34 | 42.5% |
+| Neutral | 6 | 7.5% |
+| Strongly Disagree | 2 | 2.5% |
+| Disagree | 1 | 1.25% |
+| **Total** | **80** | **100%** |
+
+**Interpretation:**
+An overwhelming majority (88.75%) believe cards are safer for high-value transactions, showing strong trust in card payments.
+
+---
+
+## 4.17 Internet availability affects my use of UPI
+
+| Response | No. | % |
+| :--- | :---: | :---: |
+| Disagree | 38 | 47.5% |
+| Agree | 23 | 28.75% |
+| Strongly Agree | 13 | 16.25% |
+| Neutral | 5 | 6.25% |
+| Strongly Disagree | 1 | 1.25% |
+| **Total** | **80** | **100%** |
+
+**Interpretation:**
+Most respondents (47.5%) disagree, indicating that internet availability is not a major barrier for UPI usage among users.
+
+---
+
+## 4.18 Fear of online fraud affects my digital payment usage
+
+| Response | No. | % |
+| :--- | :---: | :---: |
+| Disagree | 40 | 50% |
+| Agree | 21 | 26.25% |
+| Strongly Agree | 11 | 13.75% |
+| Neutral | 7 | 8.75% |
+| Strongly Disagree | 1 | 1.25% |
+| **Total** | **80** | **100%** |
+
+**Interpretation:**
+Half of the respondents are not affected by fear of online fraud, indicating growing confidence in digital payment security.
+
+---
+
+## 4.19 Cashback and rewards influence my payment choice
+
+| Response | No. | % |
+| :--- | :---: | :---: |
+| Agree | 48 | 60% |
+| Neutral | 14 | 17.5% |
+| Strongly Agree | 13 | 16.25% |
+| Strongly Disagree | 3 | 3.75% |
+| Disagree | 2 | 2.5% |
+| **Total** | **80** | **100%** |
+
+**Interpretation:**
+A strong majority (76.25%) agree that cashback and rewards influence their payment decisions, showing the importance of incentives.
+
+---
+
+## 4.20 I trust UPI platforms for money transfers
+
+| Response | No. | % |
+| :--- | :---: | :---: |
+| Agree | 39 | 48.75% |
+| Strongly Agree | 26 | 32.5% |
+| Neutral | 12 | 15% |
+| Disagree | 2 | 2.5% |
+| Strongly Disagree | 1 | 1.25% |
+| **Total** | **80** | **100%** |
+
+**Interpretation:**
+A large majority (81.25%) trust UPI platforms, reflecting strong confidence in digital payment systems.
+
+---
+
+## 4.21 I prefer cash because of habit
+
+| Response | No. | % |
+| :--- | :---: | :---: |
+| Disagree | 42 | 52.5% |
+| Agree | 15 | 18.75% |
+| Neutral | 12 | 15% |
+| Strongly Agree | 9 | 11.25% |
+| Strongly Disagree | 2 | 2.5% |
+| **Total** | **80** | **100%** |
+
+**Interpretation:**
+More than half of the respondents do not prefer cash out of habit, indicating a behavioral shift towards digital payments.
+
+---
+
+## 4.22 Technical issues reduce my interest in UPI
+
+| Response | No. | % |
+| :--- | :---: | :---: |
+| Agree | 43 | 53.75% |
+| Strongly Agree | 23 | 28.75% |
+| Neutral | 7 | 8.75% |
+| Disagree | 6 | 7.5% |
+| Strongly Disagree | 1 | 1.25% |
+| **Total** | **80** | **100%** |
+
+**Interpretation:**
+Most respondents (82.5%) feel technical issues negatively affect UPI usage, highlighting the need for system reliability.
+
+---
+
+## 4.23 I find card payments easier than UPI
+
+| Response | No. | % |
+| :--- | :---: | :---: |
+| Agree | 35 | 43.75% |
+| Disagree | 18 | 22.5% |
+| Neutral | 14 | 17.5% |
+| Strongly Agree | 9 | 11.25% |
+| Strongly Disagree | 4 | 5% |
+| **Total** | **80** | **100%** |
+
+**Interpretation:**
+Many respondents feel card payments are easier than UPI, especially for structured and high-value transactions.
+
+---
+
+## 4.24 UPI apps used most
+
+| App | No. | % |
+| :--- | :---: | :---: |
+| Google Pay | 48 | 60% |
+| PhonePe | 17 | 21.25% |
+| Other | 6 | 7.5% |
+| BHIM | 5 | 6.25% |
+| Paytm | 4 | 5% |
+| **Total** | **80** | **100%** |
+
+**Interpretation:**
+Google Pay dominates UPI usage, followed by PhonePe, showing user preference for familiar platforms.
+
+---
+
+## 4.25 Faced UPI payment failure
+
+| Response | No. | % |
+| :--- | :---: | :---: |
+| Yes | 67 | 83.75% |
+| No | 13 | 16.25% |
+| **Total** | **80** | **100%** |
+
+**Interpretation:**
+A large majority have experienced UPI failures, indicating a common operational issue.
+
+---
+
+## 4.26 Lost money due to online fraud
+
+| Response | No. | % |
+| :--- | :---: | :---: |
+| No | 63 | 78.75% |
+| Yes | 17 | 21.25% |
+| **Total** | **80** | **100%** |
+
+**Interpretation:**
+Most respondents have not faced online fraud, indicating relatively safe usage of digital payments.
+
+---
+
+## 4.27 Digital payments will reduce cash usage in future
+
+| Response | No. | % |
+| :--- | :---: | :---: |
+| Yes | 67 | 83.75% |
+| No | 7 | 8.75% |
+| Not Sure | 6 | 7.5% |
+| **Total** | **80** | **100%** |
+
+**Interpretation:**
+A strong majority believe digital payments will reduce cash usage in the future.
+
+---
+
+## 4.28 Would you recommend UPI to others
+
+| Response | No. | % |
+| :--- | :---: | :---: |
+| Yes | 67 | 83.75% |
+| Maybe | 8 | 10% |
+| No | 5 | 6.25% |
+| **Total** | **80** | **100%** |
+
+**Interpretation:**
+High recommendation levels reflect strong satisfaction with UPI services.
+
+---
+
+## 4.29 Best payment method for daily use
+
+| Method | No. | % |
+| :--- | :---: | :---: |
+| UPI | 38 | 47.5% |
+| Card | 29 | 36.25% |
+| Cash | 13 | 16.25% |
+| **Total** | **80** | **100%** |
+
+**Interpretation:**
+UPI is considered the best method for daily use, followed by cards, confirming digital dominance over cash.

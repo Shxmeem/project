@@ -11,7 +11,7 @@
 | **Total** | **80** | **100%** |
 
 **Interpretation:**
-The majority of respondents (57.5%) belong to the 18–25 age group, indicating higher participation of youth. This suggests that younger individuals are more involved in digital and daily payment activities.
+The majority of respondents (57.5%) belong to the 18–25 age group, indicating higher participation of youth. This suggests that younger individuals are more involved in digital and daily payment activities, while only 1.25% of respondents are aged 46 and above, showing lower adoption or participation among older age groups.
 
 ---
 
@@ -24,7 +24,7 @@ The majority of respondents (57.5%) belong to the 18–25 age group, indicating 
 | **Total** | **80** | **100%** |
 
 **Interpretation:**
-Male respondents constitute a higher share (70%) compared to females (30%), indicating higher participation of males in the survey.
+Male respondents constitute a higher share (70%) compared to females (30%), indicating higher participation of males in the survey. This gender disparity of 40 percentage points suggests a need for more inclusive sampling in future studies on payment behaviors.
 
 ---
 
@@ -37,7 +37,7 @@ Male respondents constitute a higher share (70%) compared to females (30%), indi
 | **Total** | **80** | **100%** |
 
 **Interpretation:**
-Most respondents (60%) are from urban areas, showing higher digital exposure compared to rural respondents (40%).
+Most respondents (60%) are from urban areas, showing higher digital exposure compared to rural respondents (40%). The 20% gap between urban and rural representation reflects the current digital divide in payment system adoption.
 
 ---
 
@@ -52,7 +52,7 @@ Most respondents (60%) are from urban areas, showing higher digital exposure com
 | **Total** | **80** | **100%** |
 
 **Interpretation:**
-Half of the respondents are postgraduates, indicating a highly educated sample which may positively influence digital payment adoption.
+Half of the respondents (50%) are postgraduates, and an additional 33.75% are undergraduates, indicating a highly educated sample where 83.75% have higher education. This educational background may positively influence digital payment adoption and understanding.
 
 ---
 
@@ -67,7 +67,7 @@ Half of the respondents are postgraduates, indicating a highly educated sample w
 | **Total** | **80** | **100%** |
 
 **Interpretation:**
-Students form the largest group (46.25%), followed closely by employed individuals, indicating active usage of daily transaction methods among these groups.
+Students form the largest group (46.25%), followed closely by employed individuals (41.25%), indicating active usage of daily transaction methods among these groups. Together, students and employed persons account for 87.5% of respondents, suggesting that payment preferences are largely shaped by these demographic segments.
 
 ---
 
@@ -82,7 +82,7 @@ Students form the largest group (46.25%), followed closely by employed individua
 | **Total** | **80** | **100%** |
 
 **Interpretation:**
-A large portion of respondents (42.5%) fall under the lower income group, showing that digital payments like UPI are accessible across income levels.
+A large portion of respondents (42.5%) fall under the lower income group (below ₹10,000), showing that digital payments like UPI are accessible across income levels. Only 8.75% earn above ₹50,000, indicating that the sample predominantly represents lower and middle-income groups who make up 71.25% of respondents.
 
 ---
 
@@ -96,7 +96,7 @@ A large portion of respondents (42.5%) fall under the lower income group, showin
 | **Total** | **80** | **100%** |
 
 **Interpretation:**
-UPI is the most preferred payment method (46.25%), followed by cards, indicating a shift towards digital payments over cash.
+UPI is the most preferred payment method (46.25%), followed by cards (37.5%), indicating a shift towards digital payments over cash (16.25%). Combined digital preferences (UPI and cards) account for 83.75% of respondents, demonstrating strong adoption of cashless transactions.
 
 ---
 
@@ -112,7 +112,7 @@ UPI is the most preferred payment method (46.25%), followed by cards, indicating
 | **Total** | **80** | **100%** |
 
 **Interpretation:**
-Most users use UPI occasionally or rarely, indicating that while adoption is high, daily dependency is still developing.
+Most users use UPI occasionally (30%) or rarely (46.25%), indicating that while adoption is high (98.75% have used it), daily dependency at 13.75% is still developing. Frequent users account for only 8.75%, suggesting room for increased regular usage.
 
 ---
 
@@ -128,7 +128,7 @@ Most users use UPI occasionally or rarely, indicating that while adoption is hig
 | **Total** | **80** | **100%** |
 
 **Interpretation:**
-Cash is still frequently used by a significant portion of respondents, highlighting its continued importance in daily transactions.
+Cash is still frequently used by a significant portion of respondents (42.5%), highlighting its continued importance in daily transactions. When combined with daily users (11.25%), over half (53.75%) rely on cash regularly, despite digital payment growth.
 
 ---
 
@@ -144,7 +144,7 @@ Cash is still frequently used by a significant portion of respondents, highlight
 | **Total** | **80** | **100%** |
 
 **Interpretation:**
-Card usage is high, especially for frequent transactions, indicating strong trust in card payments.
+Card usage is high, with 48.75% using them frequently and 17.5% daily, indicating strong trust in card payments. Only 6.25% never use cards, showing near-universal adoption (93.75%) among respondents.
 
 ---
 
@@ -160,7 +160,7 @@ Card usage is high, especially for frequent transactions, indicating strong trus
 | **Total** | **80** | **100%** |
 
 **Interpretation:**
-UPI is mainly used for food orders and bill payments, showing its dominance in routine daily expenses.
+UPI is mainly used for food orders (43.75%) and bill payments (21.25%), showing its dominance in routine daily expenses. Together, these two purposes account for 65% of UPI transactions, while peer-to-peer transfers and grocery shopping make up smaller shares.
 
 ---
 
@@ -176,7 +176,7 @@ UPI is mainly used for food orders and bill payments, showing its dominance in r
 | **Total** | **80** | **100%** |
 
 **Interpretation:**
-Cards are mainly preferred for online shopping, reflecting their importance in e-commerce transactions.
+Cards are mainly preferred for online shopping (58.75%), reflecting their importance in e-commerce transactions. Subscriptions (16.25%) and business payments (11.25%) follow, while in-person uses like hotels/restaurants account for only 6.25%.
 
 ---
 
@@ -192,7 +192,7 @@ Cards are mainly preferred for online shopping, reflecting their importance in e
 | **Total** | **80** | **100%** |
 
 **Interpretation:**
-Cash is primarily used for street vendors and small shops, where digital payment acceptance may be limited.
+Cash is primarily used for street vendors (42.5%) and small shops (35%), where digital payment acceptance may be limited. Together, these account for 77.5% of cash usage, indicating cash remains essential for informal sector transactions.
 
 ---
 
@@ -208,7 +208,7 @@ Cash is primarily used for street vendors and small shops, where digital payment
 | **Total** | **80** | **100%** |
 
 **Interpretation:**
-A strong majority (82.5%) agree that UPI is convenient, confirming its acceptance and ease of use among respondents.
+A strong majority (82.5%) agree or strongly agree that UPI is convenient, confirming its acceptance and ease of use among respondents. Only 7.5% disagree, demonstrating overwhelming positive sentiment toward UPI's user experience.
 
 ---
 
@@ -224,7 +224,7 @@ A strong majority (82.5%) agree that UPI is convenient, confirming its acceptanc
 | **Total** | **80** | **100%** |
 
 **Interpretation:**
-A majority (63.75%) disagree with the statement, indicating that respondents do not consider lack of technology as a strong reason to prefer cash.
+A majority (63.75%) disagree with the statement, indicating that respondents do not consider lack of technology as a strong reason to prefer cash. However, 23.75% still agree or strongly agree that technology-free convenience is a cash advantage.
 
 ---
 
@@ -240,7 +240,7 @@ A majority (63.75%) disagree with the statement, indicating that respondents do 
 | **Total** | **80** | **100%** |
 
 **Interpretation:**
-An overwhelming majority (88.75%) believe cards are safer for high-value transactions, showing strong trust in card payments.
+An overwhelming majority (88.75%) believe cards are safer for high-value transactions, showing strong trust in card payments. Only 3.75% disagree, making card security perception nearly universal among respondents.
 
 ---
 
@@ -256,7 +256,7 @@ An overwhelming majority (88.75%) believe cards are safer for high-value transac
 | **Total** | **80** | **100%** |
 
 **Interpretation:**
-Most respondents (47.5%) disagree, indicating that internet availability is not a major barrier for UPI usage among users.
+Most respondents (47.5%) disagree, indicating that internet availability is not a major barrier for UPI usage among users. However, 45% agree or strongly agree that internet affects their usage, showing connectivity still matters for a significant minority.
 
 ---
 
@@ -272,7 +272,7 @@ Most respondents (47.5%) disagree, indicating that internet availability is not 
 | **Total** | **80** | **100%** |
 
 **Interpretation:**
-Half of the respondents are not affected by fear of online fraud, indicating growing confidence in digital payment security.
+Half of the respondents (50%) are not affected by fear of online fraud, indicating growing confidence in digital payment security. Still, 40% agree or strongly agree that fraud concerns affect their usage, suggesting security remains a consideration for many.
 
 ---
 
@@ -288,7 +288,7 @@ Half of the respondents are not affected by fear of online fraud, indicating gro
 | **Total** | **80** | **100%** |
 
 **Interpretation:**
-A strong majority (76.25%) agree that cashback and rewards influence their payment decisions, showing the importance of incentives.
+A strong majority (76.25%) agree or strongly agree that cashback and rewards influence their payment decisions, showing the importance of incentives. Only 6.25% disagree, making rewards a key driver for digital payment adoption.
 
 ---
 
@@ -304,7 +304,7 @@ A strong majority (76.25%) agree that cashback and rewards influence their payme
 | **Total** | **80** | **100%** |
 
 **Interpretation:**
-A large majority (81.25%) trust UPI platforms, reflecting strong confidence in digital payment systems.
+A large majority (81.25%) trust UPI platforms, reflecting strong confidence in digital payment systems. Only 3.75% express distrust, demonstrating that UPI has successfully built user confidence.
 
 ---
 
@@ -320,7 +320,7 @@ A large majority (81.25%) trust UPI platforms, reflecting strong confidence in d
 | **Total** | **80** | **100%** |
 
 **Interpretation:**
-More than half of the respondents do not prefer cash out of habit, indicating a behavioral shift towards digital payments.
+More than half of the respondents (55%) disagree or strongly disagree that they prefer cash out of habit, indicating a behavioral shift towards digital payments. However, 30% still agree habit influences their cash preference, showing traditional practices persist.
 
 ---
 
@@ -336,7 +336,7 @@ More than half of the respondents do not prefer cash out of habit, indicating a 
 | **Total** | **80** | **100%** |
 
 **Interpretation:**
-Most respondents (82.5%) feel technical issues negatively affect UPI usage, highlighting the need for system reliability.
+Most respondents (82.5%) feel technical issues negatively affect UPI usage, highlighting the need for system reliability. Only 8.75% disagree, making technical problems a near-universal concern among UPI users.
 
 ---
 
@@ -352,7 +352,7 @@ Most respondents (82.5%) feel technical issues negatively affect UPI usage, high
 | **Total** | **80** | **100%** |
 
 **Interpretation:**
-Many respondents feel card payments are easier than UPI, especially for structured and high-value transactions.
+Many respondents (55%) agree or strongly agree that card payments are easier than UPI, especially for structured and high-value transactions. Only 27.5% disagree, suggesting cards maintain a perceived ease-of-use advantage for some users.
 
 ---
 
@@ -368,7 +368,7 @@ Many respondents feel card payments are easier than UPI, especially for structur
 | **Total** | **80** | **100%** |
 
 **Interpretation:**
-Google Pay dominates UPI usage, followed by PhonePe, showing user preference for familiar platforms.
+Google Pay dominates UPI usage with 60% market share, followed by PhonePe at 21.25%, showing user preference for familiar platforms. Together, these two apps control 81.25% of the UPI market among respondents.
 
 ---
 
@@ -381,7 +381,7 @@ Google Pay dominates UPI usage, followed by PhonePe, showing user preference for
 | **Total** | **80** | **100%** |
 
 **Interpretation:**
-A large majority have experienced UPI failures, indicating a common operational issue.
+A large majority (83.75%) have experienced UPI failures, indicating a common operational issue. Only 16.25% have never faced a failure, highlighting the prevalence of technical glitches in the UPI ecosystem.
 
 ---
 
@@ -394,7 +394,7 @@ A large majority have experienced UPI failures, indicating a common operational 
 | **Total** | **80** | **100%** |
 
 **Interpretation:**
-Most respondents have not faced online fraud, indicating relatively safe usage of digital payments.
+Most respondents (78.75%) have not faced online fraud, indicating relatively safe usage of digital payments. However, 21.25% have experienced financial loss due to fraud, representing a significant minority affected by security breaches.
 
 ---
 
@@ -408,7 +408,7 @@ Most respondents have not faced online fraud, indicating relatively safe usage o
 | **Total** | **80** | **100%** |
 
 **Interpretation:**
-A strong majority believe digital payments will reduce cash usage in the future.
+A strong majority (83.75%) believe digital payments will reduce cash usage in the future. Only 8.75% disagree, reflecting widespread optimism about the continued growth of digital transactions.
 
 ---
 
@@ -422,7 +422,7 @@ A strong majority believe digital payments will reduce cash usage in the future.
 | **Total** | **80** | **100%** |
 
 **Interpretation:**
-High recommendation levels reflect strong satisfaction with UPI services.
+High recommendation levels (83.75% would recommend) reflect strong satisfaction with UPI services. Only 6.25% would not recommend, indicating UPI has achieved strong user advocacy.
 
 ---
 
@@ -436,4 +436,4 @@ High recommendation levels reflect strong satisfaction with UPI services.
 | **Total** | **80** | **100%** |
 
 **Interpretation:**
-UPI is considered the best method for daily use, followed by cards, confirming digital dominance over cash.
+UPI is considered the best method for daily use by 47.5% of respondents, followed by cards at 36.25%, confirming digital dominance over cash (16.25%). Combined, 83.75% prefer digital methods for daily transactions, reinforcing the shift away from physical currency.

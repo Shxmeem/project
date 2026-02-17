@@ -1,9 +1,3 @@
-Here is the fully updated `index.md` file with all interpretations removed and the 'Responses' column deleted from every table, as you requested.
-
----
-
-### `index.md`
-
 # 4. Data Analysis and Interpretation
 
 ## 4.1 Age-wise Classification
@@ -14,7 +8,6 @@ Here is the fully updated `index.md` file with all interpretations removed and t
 | 26–35 | 32.5% |
 | 36–45 | 8.75% |
 | 46 & Above | 1.25% |
-| **Total** | **100%** |
 
 ---
 
@@ -24,7 +17,6 @@ Here is the fully updated `index.md` file with all interpretations removed and t
 | :--- | :---: |
 | Male | 70% |
 | Female | 30% |
-| **Total** | **100%** |
 
 ---
 
@@ -34,7 +26,6 @@ Here is the fully updated `index.md` file with all interpretations removed and t
 | :--- | :---: |
 | City/Town | 60% |
 | Village | 40% |
-| **Total** | **100%** |
 
 ---
 
@@ -46,7 +37,6 @@ Here is the fully updated `index.md` file with all interpretations removed and t
 | Undergraduate | 33.75% |
 | Postgraduate | 50% |
 | Other | 0% |
-| **Total** | **100%** |
 
 ---
 
@@ -58,7 +48,6 @@ Here is the fully updated `index.md` file with all interpretations removed and t
 | Employed | 41.25% |
 | Self-Employed | 7.5% |
 | Unemployed | 5% |
-| **Total** | **100%** |
 
 ---
 
@@ -70,7 +59,6 @@ Here is the fully updated `index.md` file with all interpretations removed and t
 | ₹10,000–₹25,000 | 28.75% |
 | ₹25,001–₹50,000 | 20% |
 | Above ₹50,000 | 8.75% |
-| **Total** | **100%** |
 
 ---
 
@@ -81,7 +69,6 @@ Here is the fully updated `index.md` file with all interpretations removed and t
 | UPI | 46.25% |
 | Card | 37.5% |
 | Cash | 16.25% |
-| **Total** | **100%** |
 
 ---
 
@@ -94,7 +81,6 @@ Here is the fully updated `index.md` file with all interpretations removed and t
 | Daily | 13.75% |
 | Frequently | 8.75% |
 | Never | 1.25% |
-| **Total** | **100%** |
 
 ---
 
@@ -107,7 +93,6 @@ Here is the fully updated `index.md` file with all interpretations removed and t
 | Occasionally | 15% |
 | Daily | 11.25% |
 | Never | 1.25% |
-| **Total** | **100%** |
 
 ---
 
@@ -120,7 +105,6 @@ Here is the fully updated `index.md` file with all interpretations removed and t
 | Occasionally | 15% |
 | Rarely | 12.5% |
 | Never | 6.25% |
-| **Total** | **100%** |
 
 ---
 
@@ -133,7 +117,6 @@ Here is the fully updated `index.md` file with all interpretations removed and t
 | Grocery | 12.5% |
 | Travel | 11.25% |
 | Friends/Family Transfer | 11.25% |
-| **Total** | **100%** |
 
 ---
 
@@ -146,7 +129,6 @@ Here is the fully updated `index.md` file with all interpretations removed and t
 | Business Payments | 11.25% |
 | Large Purchases | 7.5% |
 | Hotels & Restaurants | 6.25% |
-| **Total** | **100%** |
 
 ---
 
@@ -159,7 +141,6 @@ Here is the fully updated `index.md` file with all interpretations removed and t
 | Transport | 20% |
 | Tips/Donations | 1.25% |
 | Other | 1.25% |
-| **Total** | **100%** |
 
 ---
 
@@ -172,7 +153,6 @@ Here is the fully updated `index.md` file with all interpretations removed and t
 | Neutral | 10% |
 | Disagree | 6.25% |
 | Strongly Disagree | 1.25% |
-| **Total** | **100%** |
 
 ---
 
@@ -185,7 +165,6 @@ Here is the fully updated `index.md` file with all interpretations removed and t
 | Neutral | 11.25% |
 | Agree | 6.25% |
 | Strongly Disagree | 1.25% |
-| **Total** | **100%** |
 
 ---
 
@@ -198,7 +177,6 @@ Here is the fully updated `index.md` file with all interpretations removed and t
 | Neutral | 7.5% |
 | Strongly Disagree | 2.5% |
 | Disagree | 1.25% |
-| **Total** | **100%** |
 
 ---
 
@@ -211,7 +189,6 @@ Here is the fully updated `index.md` file with all interpretations removed and t
 | Strongly Agree | 16.25% |
 | Neutral | 6.25% |
 | Strongly Disagree | 1.25% |
-| **Total** | **100%** |
 
 ---
 
@@ -224,7 +201,6 @@ Here is the fully updated `index.md` file with all interpretations removed and t
 | Strongly Agree | 13.75% |
 | Neutral | 8.75% |
 | Strongly Disagree | 1.25% |
-| **Total** | **100%** |
 
 ---
 
@@ -237,7 +213,6 @@ Here is the fully updated `index.md` file with all interpretations removed and t
 | Strongly Agree | 16.25% |
 | Strongly Disagree | 3.75% |
 | Disagree | 2.5% |
-| **Total** | **100%** |
 
 ---
 
@@ -250,7 +225,6 @@ Here is the fully updated `index.md` file with all interpretations removed and t
 | Neutral | 15% |
 | Disagree | 2.5% |
 | Strongly Disagree | 1.25% |
-| **Total** | **100%** |
 
 ---
 
@@ -263,7 +237,6 @@ Here is the fully updated `index.md` file with all interpretations removed and t
 | Neutral | 15% |
 | Strongly Agree | 11.25% |
 | Strongly Disagree | 2.5% |
-| **Total** | **100%** |
 
 ---
 
@@ -276,7 +249,6 @@ Here is the fully updated `index.md` file with all interpretations removed and t
 | Neutral | 8.75% |
 | Disagree | 7.5% |
 | Strongly Disagree | 1.25% |
-| **Total** | **100%** |
 
 ---
 
@@ -289,7 +261,6 @@ Here is the fully updated `index.md` file with all interpretations removed and t
 | Neutral | 17.5% |
 | Strongly Agree | 11.25% |
 | Strongly Disagree | 5% |
-| **Total** | **100%** |
 
 ---
 
@@ -302,7 +273,6 @@ Here is the fully updated `index.md` file with all interpretations removed and t
 | Other | 7.5% |
 | BHIM | 6.25% |
 | Paytm | 5% |
-| **Total** | **100%** |
 
 ---
 
@@ -312,7 +282,6 @@ Here is the fully updated `index.md` file with all interpretations removed and t
 | :--- | :---: |
 | Yes | 83.75% |
 | No | 16.25% |
-| **Total** | **100%** |
 
 ---
 
@@ -322,7 +291,6 @@ Here is the fully updated `index.md` file with all interpretations removed and t
 | :--- | :---: |
 | No | 78.75% |
 | Yes | 21.25% |
-| **Total** | **100%** |
 
 ---
 
@@ -333,7 +301,6 @@ Here is the fully updated `index.md` file with all interpretations removed and t
 | Yes | 83.75% |
 | No | 8.75% |
 | Not Sure | 7.5% |
-| **Total** | **100%** |
 
 ---
 
@@ -344,7 +311,6 @@ Here is the fully updated `index.md` file with all interpretations removed and t
 | Yes | 83.75% |
 | Maybe | 10% |
 | No | 6.25% |
-| **Total** | **100%** |
 
 ---
 
@@ -355,4 +321,3 @@ Here is the fully updated `index.md` file with all interpretations removed and t
 | UPI | 47.5% |
 | Card | 36.25% |
 | Cash | 16.25% |
-| **Total** | **100%** |
